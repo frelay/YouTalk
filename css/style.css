@@ -25,17 +25,17 @@
 /* Стили для контейнера */
 .container {
     max-width: 1200px;
-    min-height: 76px;
-    /* Добавил рамку чтобы видеть блок
-    border: 1px solid black; */
+    /* Добавил рамку чтобы видеть блок */
+    /* border: 1px solid black; */
     margin: 0 auto;
 }
 
 /* Стили для шапки */
 .header-section__header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     justify-content: space-between;
 }
 
@@ -45,6 +45,7 @@
 
 .info-list {
     display: flex;
+    flex-wrap: wrap;
     margin-right: 164px;
 }
 
@@ -56,7 +57,7 @@
     margin-right: 10px;
 }
 
-.arrow-down {
+.info-list__arrow-down {
     margin-right: 30px;
 }
 
@@ -68,19 +69,125 @@
     text-decoration: none;
     color: #333333;
     font-family: Montserrat-Medium;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .header-section__button {
     width: 230px;
     height: 48px;
-    right: 120px;
     background: #e3f5f5;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     border: none;
-    padding: 14px 20px;
+    padding: 0.875rem 1.25rem;
     font-family: Montserrat-Bold;
-    font-size: 16px;
+    font-size: 1rem;
     color: #03b2a5;
     text-align: center;
+    cursor: pointer;
+}
+
+/* Адаптив */
+/* Ipad Pro */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        /* Добавил рамку чтобы видеть блок
+        border: 1px solid black; */
+        margin: 0 auto;
+    }
+
+    .header-section__header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 1.25rem 0 1.25rem 2rem;
+        justify-content: start;
+    }
+
+    .header-section__logo {
+        margin-right: 32px;
+    }
+
+    .header-section__button {
+        display: none;
+    }
+}
+
+/* Ipad Mini */
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        /* Добавил рамку чтобы видеть блок
+        border: 1px solid black; */
+        margin: 0 auto;
+    }
+
+    .header-section__header {
+        padding: 1.25rem 1.9375rem 1.25rem 1.25rem;
+        justify-content: space-around;
+    }
+
+    .header-section__logo {
+        margin-right: 645px;
+    }
+
+    .header-section__hamburger {
+        width: 1.125rem;
+        height: 0.875rem;
+    }
+
+    .header-section__span {
+        height: 2px;
+        width: 100%;
+        display: block;
+        background: #03b2a5;
+        margin-bottom: 4px;
+        border-radius: 1px;
+    }
+
+    .header-section__span:last-child {
+        margin-bottom: 0;
+    }
+
+    .info-list {
+        display: none;
+    }
+}
+
+/* IPhone 11 Pro Max */
+@media (max-width: 414px) {
+    .container {
+        max-width: 414px;
+        /* Добавил рамку чтобы видеть блок
+        border: 1px solid black; */
+        margin: 0 auto;
+    }
+
+    .header-section__header {
+        padding: 1.25rem 2.1875rem 1.25rem 1.5rem;
+        justify-content: space-around;
+    }
+
+    .header-section__logo {
+        margin-right: 286px;
+    }
+}
+
+/* IPhone SE - 1 */
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+        /* Добавил рамку чтобы видеть блок
+        border: 1px solid black; */
+        margin: 0 auto;
+    }
+
+    .header-section__header {
+        padding: 0.6875rem 1.1875rem 0.6875rem 1rem;
+        justify-content: space-around;
+    }
+
+    .header-section__logo {
+        margin-right: 216px;
+    }
 }
