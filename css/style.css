@@ -43,29 +43,29 @@
     margin-right: 20px;
 }
 
-.info-list {
+.nav-list {
     display: flex;
     flex-wrap: wrap;
     margin-right: 164px;
 }
 
-.info-list__item {
+.nav-list__item {
     margin-right: 30px;
 }
 
-.info-list__item:nth-child(6) {
+.nav-list__item:nth-child(6) {
     margin-right: 10px;
 }
 
-.info-list__arrow-down {
+.nav-list__arrow-down {
     margin-right: 30px;
 }
 
-.info-list__item:last-child {
+.nav-list__item:last-child {
     margin-right: 0;
 }
 
-.info-list__item a {
+.nav-list__item a {
     text-decoration: none;
     color: #333333;
     font-family: Montserrat-Medium;
@@ -149,7 +149,7 @@
         margin-bottom: 0;
     }
 
-    .info-list {
+    .nav-list {
         display: none;
     }
 }
