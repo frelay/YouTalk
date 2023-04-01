@@ -314,7 +314,13 @@
     }
 
     .tag-list {
+        flex-wrap: nowrap;
+        overflow: scroll;
         margin-bottom: 1rem;
+    }
+
+    .tag-list__item {
+        white-space: nowrap;
     }
 }
 
