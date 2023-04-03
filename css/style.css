@@ -168,6 +168,94 @@
     margin-right: 0;
 }
 
+/* Стили для больших карточек */
+.big-cards {
+    display: flex;
+    margin-bottom: 1.4375rem;
+}
+
+.big-cards__card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dedede;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+}
+
+.big-cards__card:last-child {
+    margin-right: 0;
+}
+
+.big-cards__img-box {
+    position: relative;
+}
+
+.big-cards__img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.big-cards__tags {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #c1c5cd;
+    border-radius: 1.5rem;
+    height: 2rem;
+    padding: 0.375rem 0.5rem;
+    font-family: Montserrat-Medium;
+    font-size: 0.875rem;
+    background: rgba(255, 255, 255, 0.7);
+    color: #333333;
+}
+
+.big-cards__tags:nth-child(odd) {
+    top: 3rem;
+    left: 0.5rem;
+}
+
+.big-cards__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem 0 0 1rem;
+    min-height: 15rem;
+}
+
+.big-cards__subtitle {
+    font-family: Montserrat-Bold;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-bottom: 0.25rem;
+    color: #333333;
+}
+
+.big-cards__author {
+    font-family: Montserrat-Regular;
+    font-size: 0.75rem;
+    letter-spacing: 0.25px;
+    color: #494949;
+    margin-bottom: 0.5rem;
+}
+
+.big-cards__text-content {
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #333333;
+}
+
+.big-cards__date {
+    position: absolute;
+    bottom: 1rem;
+    font-family: Montserrat-Regular;
+    font-size: 0.75rem;
+    letter-spacing: 0.25px;
+    color: #494949;
+}
+
 /* Адаптив */
 /* Ipad Pro */
 @media (max-width: 1024px) {
