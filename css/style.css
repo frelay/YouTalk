@@ -192,6 +192,7 @@
 
 .big-cards__img {
     border-radius: 1rem 1rem 0 0;
+    max-width: 36.75rem;
 }
 
 .big-cards__tags {
@@ -220,7 +221,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 1rem 0 0 1rem;
+    padding: 1rem 1rem 0 1rem;
     min-height: 15rem;
 }
 
@@ -306,6 +307,15 @@
         padding-left: 2rem;
         margin-bottom: 1.4375rem;
     }
+
+    .big-cards {
+        max-width: 60rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .big-cards__img {
+        max-width: 29.25rem;
+    }
 }
 
 /* Ipad Mini */
@@ -368,6 +378,20 @@
         padding-left: 1.25rem;
         margin-bottom: 1.4375rem;
     }
+
+    .big-cards {
+        max-width: 45.5rem;
+        flex-wrap: wrap;
+    }
+
+    .big-cards__card {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .big-cards__img {
+        max-width: 45.5rem;
+    }
 }
 
 /* IPhone 11 Pro Max */
@@ -410,6 +434,19 @@
     .tag-list__item {
         white-space: nowrap;
     }
+
+    .big-cards {
+        max-width: 23.375rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .big-cards__card {
+        margin-bottom: 1rem;
+    }
+
+    .big-cards__img {
+        max-width: 23.375rem;
+    }
 }
 
 /* IPhone SE - 1 */
@@ -449,5 +486,18 @@
 
     .tag-list {
         margin-bottom: 2.5rem;
+    }
+
+    .big-cards {
+        max-width: 18rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .big-cards__img {
+        max-width: 18rem;
+    }
+
+    .big-cards__text {
+        min-height: 18rem;
     }
 }
