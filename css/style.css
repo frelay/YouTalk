@@ -257,6 +257,54 @@
     color: #494949;
 }
 
+/* Стили для остальных карточек */
+.other-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3.5rem;
+}
+
+.other-cards__item {
+    border: 1px solid #dedede;
+    border-radius: 1rem;
+    max-width: 24rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.other-cards__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.other-cards__img-box {
+    position: relative;
+}
+
+.other-cards__img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.other-cards__text {
+    min-height: 13rem;
+}
+
+.main__btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.main__more-btn {
+    width: 11.375rem;
+    height: 3rem;
+    background: #35b3a9;
+    border: none;
+    border-radius: 0.25rem;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    color: #ffffff;
+}
+
 /* Адаптив */
 /* Ipad Pro */
 @media (max-width: 1024px) {
@@ -315,6 +363,31 @@
 
     .big-cards__img {
         max-width: 29.25rem;
+    }
+
+    .little-cards {
+        min-height: 75rem;
+    }
+
+    .other-cards {
+        max-width: 60rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .other-cards__item {
+        max-width: 19rem;
+    }
+
+    .other-cards__img {
+        max-width: 19rem;
+    }
+
+    .other-cards__text {
+        min-height: 19rem;
+    }
+
+    .main__btn-container {
+        margin-bottom: 3.6875rem;
     }
 }
 
@@ -392,6 +465,40 @@
     .big-cards__img {
         max-width: 45.5rem;
     }
+
+    .little-cards {
+        min-height: 102.5rem;
+    }
+
+    .other-cards {
+        max-width: 45.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .other-cards__item {
+        max-width: 22rem;
+        margin-right: 0;
+    }
+
+    .other-cards__item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .other-cards__item:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .other-cards__item:nth-child(odd) {
+        margin-right: 1.5rem;
+    }
+
+    .other-cards__img {
+        max-width: 22rem;
+    }
+
+    .other-cards__text {
+        min-height: 15rem;
+    }
 }
 
 /* IPhone 11 Pro Max */
@@ -437,7 +544,6 @@
 
     .big-cards {
         max-width: 23.375rem;
-        margin-bottom: 1.5rem;
     }
 
     .big-cards__card {
@@ -446,6 +552,24 @@
 
     .big-cards__img {
         max-width: 23.375rem;
+    }
+
+    .little-cards {
+        min-height: 199.5rem;
+    }
+
+    .other-cards {
+        max-width: 23.375rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .other-cards__item {
+        min-width: 23.375rem;
+        margin-bottom: 1rem;
+    }
+
+    .other-cards__img {
+        min-width: 23.375rem;
     }
 }
 
@@ -490,7 +614,6 @@
 
     .big-cards {
         max-width: 18rem;
-        margin-bottom: 1.5rem;
     }
 
     .big-cards__img {
@@ -499,5 +622,23 @@
 
     .big-cards__text {
         min-height: 18rem;
+    }
+
+    .little-cards {
+        min-height: 196rem;
+    }
+
+    .other-cards {
+        max-width: 18rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .other-cards__item {
+        min-width: 18rem;
+        margin-bottom: 1rem;
+    }
+
+    .other-cards__img {
+        min-width: 18rem;
     }
 }
