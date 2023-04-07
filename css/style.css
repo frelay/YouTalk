@@ -24,7 +24,7 @@
 
 /* Стили для контейнера */
 .container {
-    max-width: 1200px;
+    max-width: 75rem;
     /* Добавил рамку чтобы видеть блок */
     /* border: 1px solid black; */
     margin: 0 auto;
@@ -303,6 +303,156 @@
     text-align: center;
     font-family: Montserrat-Bold;
     color: #ffffff;
+    cursor: pointer;
+}
+
+/* Стили для футера */
+.footer {
+    background-color: #2963a3;
+    padding: 2.5rem 0 0 7.5rem;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.footer__main-container {
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.footer-nav__list {
+    margin-right: 5.8125rem;
+}
+
+.footer-nav__list:last-child {
+    margin-right: 6.125rem;
+}
+
+.footer-nav__list-item {
+    margin-bottom: 1rem;
+}
+
+.footer-nav__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-nav__link {
+    text-decoration: none;
+    font-family: Montserrat-Bold;
+    color: #ffffff;
+    line-height: 1.5rem;
+}
+
+.subscribe-form {
+    max-width: 30.375rem;
+    margin-right: 3.75rem;
+}
+
+.subscribe-form__label {
+    font-family: Montserrat-Bold;
+    font-size: 1.125rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    line-height: 1.625rem;
+}
+
+.subscribe-form__block {
+    width: 24rem;
+    position: relative;
+}
+
+.subscribe-form__input {
+    width: 20rem;
+    height: 3rem;
+    padding: 0.875rem 1rem;
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    border-radius: 0.25rem;
+}
+
+.subscribe-form__btn {
+    position: absolute;
+    right: 0.25rem;
+    height: 3rem;
+    width: 4rem;
+    background-color: #16c8bb;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.875rem 1.4375rem;
+    cursor: pointer;
+}
+
+.subscribe-form__agreement {
+    font-family: Montserrat-Regular;
+    font-size: 0.75rem;
+    letter-spacing: 0.25px;
+    line-height: 1.125rem;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.sk-participant {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.sk-participant__logo {
+    margin-right: 0.5rem;
+}
+
+.social-networks__list {
+    display: flex;
+}
+
+.social-networks__list-item {
+    display: flex;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background: #eff5fb;
+    border-radius: 3.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks__icon {
+    display: block;
+}
+
+.social-networks__list-item:last-child {
+    margin-right: 0;
+    background: #333333;
+}
+
+.footer__line {
+    margin: 0 0 1rem 0;
+    max-width: 75rem;
+    background: #9d9d9d;
+    opacity: 0.3;
+}
+
+.footer__end {
+    display: flex;
+    margin-bottom: 1rem;
+    min-height: 2.2rem;
+}
+
+.footer__end-text {
+    margin-right: 3rem;
+}
+
+.footer__end-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    opacity: 0.7;
 }
 
 /* Адаптив */
@@ -388,6 +538,10 @@
 
     .main__btn-container {
         margin-bottom: 3.6875rem;
+    }
+
+    .footer {
+        display: none;
     }
 }
 
@@ -499,6 +653,10 @@
     .other-cards__text {
         min-height: 15rem;
     }
+
+    .footer {
+        display: none;
+    }
 }
 
 /* IPhone 11 Pro Max */
@@ -571,6 +729,10 @@
     .other-cards__img {
         min-width: 23.375rem;
     }
+
+    .footer {
+        display: none;
+    }
 }
 
 /* IPhone SE - 1 */
@@ -640,5 +802,9 @@
 
     .other-cards__img {
         min-width: 18rem;
+    }
+
+    .footer {
+        display: none;
     }
 }
