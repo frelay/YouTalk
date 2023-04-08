@@ -22,6 +22,11 @@
     src: url("/fonts/Montserrat-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("/fonts/Montserrat-SemiBold.ttf");
+}
+
 /* Стили для контейнера */
 .container {
     max-width: 75rem;
@@ -453,6 +458,247 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     opacity: 0.7;
+}
+
+/* Стили для страницы Статья */
+.article-container {
+    display: flex;
+    margin-top: 3.375rem;
+    justify-content: space-between;
+}
+
+.article__header {
+    margin-bottom: 1rem;
+}
+
+.article__heading {
+    font-family: Montserrat-Bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.article__author-list {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.article__author-list-item {
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    color: #494949;
+    line-height: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+.article__author-list-item:last-child {
+    margin-right: 0;
+}
+
+.article__author-list-item:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article__main-img {
+    display: block;
+    max-width: 43.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.article-contents__heading {
+    font-family: Montserrat-Bold;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.article-contents {
+    margin-bottom: 1.5rem;
+}
+
+.article-contents__main-list-item {
+    margin-bottom: 0.5rem;
+}
+
+.article-contents__sub-list-item {
+    margin-left: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.article-contents__sub-list-item_last {
+    margin-bottom: 0.875rem;
+}
+
+.article-contents__sub-sub-list-item {
+    margin-left: 3.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.article-contents__sub-sub-sub-list-item {
+    margin-left: 4.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.article-contents__sub-sub-sub-sub-list-item {
+    margin-left: 5.5rem;
+}
+
+.article-contents__sub-sub-sub-sub-list-item_last {
+    margin-bottom: 0.5rem;
+}
+
+.article-contents__link {
+    font-family: Montserrat-Medium;
+    line-height: 1.5rem;
+    color: #333333;
+}
+
+/* Стили для Aside */
+.aside__cards {
+    display: flex;
+    flex-direction: column;
+}
+.aside__card-appointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #e6f0fd;
+    min-width: 17.625rem;
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.aside__card-psychologist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 17.625rem;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem 0 1rem;
+    margin-bottom: 1.75rem;
+}
+
+.aside__card-appointment__img {
+    margin-bottom: 1.6875rem;
+}
+
+.aside__card-psychologist__img {
+    margin-bottom: 1rem;
+}
+
+.aside__card-psychologist__name {
+    font-family: Montserrat-Bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.aside__card-psychologist__job {
+    font-family: Montserrat-SemiBold;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+
+.aside__card-psychologist__exp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.aside__card-psychologist__exp__list-item {
+    margin-right: 0.5rem;
+    font-family: Montserrat-Medium;
+    font-size: 0.875rem;
+    color: #a2a7b1;
+}
+
+.aside__card-psychologist__exp__list-item:last-child {
+    margin-right: 0;
+}
+
+.aside__card-psychologist__exp__list-item__img {
+    display: block;
+}
+
+.aside__card-psychologist__line {
+    display: block;
+    min-width: 15.625rem;
+    height: 1px;
+    background-color: #dedede;
+    margin-bottom: 1rem;
+}
+
+.aside__card-psychologist__text {
+    min-width: 15.625rem;
+}
+
+.aside__card-psychologist__heading {
+    margin-bottom: 0.5rem;
+    font-family: Montserrat-Bold;
+}
+
+.aside__card-psychologist__tags {
+    top: 1rem;
+    left: 1rem;
+    letter-spacing: 0.25px;
+    font-size: 0.75rem;
+}
+
+.aside__card-psychologist__tags:nth-child(odd) {
+    left: 1rem;
+    top: 3.5rem;
+}
+
+.aside__card-appointment__heading {
+    text-align: center;
+    margin-bottom: 0.6875rem;
+    font-family: Montserrat-Bold;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.aside__card-appointment__text {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.aside__card-psychologist__list {
+    margin-bottom: 1.25rem;
+}
+
+.aside__card-psychologist__list-item {
+    margin-bottom: 0.5rem;
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.aside__card-psychologist__list-item::before {
+    content: url("/icons/before_point.svg");
+    margin-right: 0.625rem;
+}
+
+.aside__card-psychologist__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.btn {
+    background: #35b3a9;
+    border-radius: 0.25rem;
+    width: 14.625rem;
+    height: 3rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-family: Montserrat-Bold;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 /* Адаптив */
