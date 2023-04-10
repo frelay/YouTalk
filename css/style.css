@@ -560,7 +560,7 @@
 }
 
 /* Стили для секций */
-.first-section__heding {
+.first-section__heading {
     font-family: Montserrat-Bold;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -568,6 +568,7 @@
 .first-section__text {
     font-family: Montserrat-Medium;
     line-height: 1.5rem;
+    max-width: 43.1875rem;
     margin-bottom: 2.5rem;
 }
 
@@ -595,6 +596,155 @@
     display: block;
     position: absolute;
     top: 1.5rem;
+}
+
+.second-section {
+    max-width: 43.125rem;
+}
+
+.second-section__option-list__wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.second-section__option-list-img {
+    margin-right: 1rem;
+}
+
+.second-section__option-list-item {
+    margin-bottom: 1rem;
+}
+
+.second-section__option-list-item:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.second-section__main-img {
+    display: block;
+    max-width: 43.125rem;
+    margin-bottom: 1rem;
+}
+
+.second-section__main-img-sub {
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    letter-spacing: 0.25px;
+    color: #868686;
+    margin-bottom: 1.5rem;
+}
+
+.second-section__text {
+    margin-bottom: 1.5rem;
+}
+
+.second-section__blockqoute {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.second-section__blockqoute-text {
+    position: absolute;
+    top: 2rem;
+    left: 6.375rem;
+    text-align: center;
+    max-width: 30.3125rem;
+}
+
+.second-section__blockqoute-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.second-section__qoute {
+    background: #fefaec;
+    padding: 1.5rem;
+}
+
+.second-section__qoute-subtitle {
+    margin-bottom: 0.5rem;
+}
+
+.second-section__text_qoute {
+    margin-bottom: 0;
+}
+
+.second-section__text-wrapper {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.second-section__text-wrapper-img {
+    display: block;
+    margin-right: 1.5rem;
+}
+
+.third-section__option-list {
+    max-width: 43.1875rem;
+}
+
+.third-section__text {
+    max-width: 24.125rem;
+}
+
+.third-section__quote {
+    background: #fff3eb;
+}
+
+.third-section__quote_last {
+    background: rgba(3, 178, 165, 0.1);
+}
+
+.third-section__img-text-wrapper {
+    display: flex;
+    max-width: 43.1875rem;
+    margin-bottom: 1.25rem;
+}
+
+.third-section__img-text__img {
+    margin-bottom: 1.5rem;
+}
+
+.third-section__img-text {
+    max-width: 20.8125rem;
+    margin-right: 1.5rem;
+}
+
+.third-section__img-text__text {
+    margin-bottom: 0;
+}
+
+.third-section__flash-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.third-section__tag-list-link {
+    text-decoration: none;
+    font-family: Montserrat-Regular;
+    font-size: 0.875rem;
+    color: #2963a3;
+}
+
+.third-section__tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 43.1875rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.third-section__tag-list-item {
+    margin-right: 0.5rem;
+    align-items: center;
+}
+
+.third-section__tag-list-item__img {
+    display: block;
+}
+
+.third-section__tag-list-item:last-child {
+    margin-right: 0;
 }
 
 /* Стили для Aside */
@@ -792,6 +942,7 @@
     width: 108px;
     height: 48px;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .aside__card-buy__img {
@@ -799,6 +950,17 @@
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.half-ellipse {
+    position: absolute;
+    right: 0;
+    top: 153.125rem;
+}
+
+.bottom-section__line {
+    max-width: 75rem;
+    margin-bottom: 4.5rem;
 }
 
 /* Адаптив */
