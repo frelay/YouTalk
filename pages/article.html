@@ -9,8 +9,12 @@
     </head>
     <body>
         <!-- Шапка страницы -->
-        <div class="container header-section__container">
-            <header class="header-section__header">
+        <div
+            class="container header-section__container header-section__article"
+        >
+            <header
+                class="header-section__header header-section__header-article"
+            >
                 <img
                     class="header-section__logo"
                     src="/icons/main_logo.svg"
@@ -23,30 +27,38 @@
                     <span class="header-section__span"></span>
                 </div>
                 <nav class="navigation">
-                    <ul class="header-section__nav nav-list">
-                        <li class="nav-list__item"><a href="#">О нас</a></li>
-                        <li class="nav-list__item"><a href="#">Тарифы</a></li>
-                        <li class="nav-list__item">
+                    <ul class="header-section__nav nav-list nav-list-article">
+                        <li class="nav-list__item nav-list__item-article">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="nav-list__item nav-list__item-article">
+                            <a href="#">Тарифы</a>
+                        </li>
+                        <li class="nav-list__item nav-list__item-article">
                             <a href="#">Для бизнеса</a>
                         </li>
-                        <li class="nav-list__item">
+                        <li class="nav-list__item nav-list__item-article">
                             <a href="#">Психологам</a>
                         </li>
-                        <li class="nav-list__item">
+                        <li class="nav-list__item nav-list__item-article">
                             <a href="#">Сертификат</a>
                         </li>
-                        <li class="nav-list__item">
+                        <li class="nav-list__item nav-list__item-article">
                             <a href="#">Материалы</a>
                         </li>
                         <img
-                            class="nav-list__arrow-down"
+                            class="nav-list__arrow-down nav-list__arrow-down-article"
                             src="/icons/arrow_down.svg"
                             alt="Стрелочка вниз"
                         />
-                        <li class="nav-list__item"><a href="#">FAQ</a></li>
+                        <li class="nav-list__item nav-list__item-article">
+                            <a href="#">FAQ</a>
+                        </li>
                     </ul>
                 </nav>
-                <button class="header-section__button">
+                <button
+                    class="header-section__button header-section__button-article"
+                >
                     Подобрать психолога
                 </button>
             </header>
@@ -107,6 +119,22 @@
                         />
                     </li>
                     <li class="article__author-list-item">21.08.2021</li>
+                    <li
+                        class="article__author-list-item article__author-list-item-adaptive"
+                    >
+                        <img
+                            class="article__author-img-adaptive"
+                            src="../icons/point.svg"
+                            alt="Точка"
+                        />
+                    </li>
+                    <li class="third-section__tag-list-item-adaptive">
+                        <a
+                            href="#"
+                            class="third-section__tag-list-link-adaptive"
+                            >Self</a
+                        >
+                    </li>
                 </ul>
                 <!-- Главная картинка страницы -->
                 <img
@@ -162,6 +190,40 @@
                                 травмы?</a
                             >
                         </li>
+                    </ul>
+                    <ul
+                        class="second-section__option-list article-contents__option-list"
+                    >
+                        <div
+                            class="second-section__option-list__wrapper article-contents__option-list__wrapper"
+                        >
+                            <img
+                                class="second-section__option-list-img"
+                                src="../icons/before_point.svg"
+                                alt="Точка перед текстом"
+                            />
+                            <li
+                                class="second-section__option-list-item first-section__text article-contents__option-list-item"
+                            >
+                                Как понять, что отношения с мамой были
+                                дисфункциональными и привели к травме?
+                            </li>
+                        </div>
+                        <div
+                            class="second-section__option-list__wrapper article-contents__option-list__wrapper"
+                        >
+                            <img
+                                class="second-section__option-list-img"
+                                src="../icons/before_point.svg"
+                                alt="Точка перед текстом"
+                            />
+                            <li
+                                class="second-section__option-list-item first-section__text article-contents__option-list-item"
+                            >
+                                Как понять, что вы страдаете от материнской
+                                травмы?
+                            </li>
+                        </div>
                     </ul>
                 </div>
                 <!-- Первая секция -->
@@ -566,11 +628,9 @@
                             свободные окошки
                         </h2>
                         <p class="aside__card-appointment__text">
-                            Все в порядке, сейчас мы <br />
-                            перенаправим вас в сервис <br />
-                            записи Qlick, через который <br />
-                            удобно выбрать дату, время <br />
-                            встречи и оплатить её
+                            Все в порядке, сейчас мы перенаправим вас в сервис
+                            записи Qlick, через который удобно выбрать дату,
+                            время встречи и оплатить её
                         </p>
                         <button class="aside__card__btn btn">Подробнее</button>
                     </div>
@@ -634,7 +694,13 @@
                             &#128249; Видео
                         </div>
                     </div>
-                    <div class="aside__card-care"></div>
+                    <div class="aside__card-care">
+                        <img
+                            class="aside__card-care__img"
+                            src="../img/gift_care.png"
+                            alt="Дарите заботу"
+                        />
+                    </div>
                     <div class="aside__card-buy">
                         <h2 class="aside__card-buy__heading">
                             <span class="big-eight">8</span> Видео сессий
