@@ -520,6 +520,14 @@
     margin-bottom: 1.5rem;
 }
 
+.article__main-img-414 {
+    display: none;
+}
+
+.article-contents__option-list {
+    display: none;
+}
+
 .article-contents__heading {
     font-family: Montserrat-Bold;
     margin-bottom: 1rem;
@@ -633,6 +641,10 @@
     margin-bottom: 1rem;
 }
 
+.second-section__main-img-414 {
+    display: none;
+}
+
 .second-section__main-img-sub {
     font-family: Montserrat-Regular;
     font-size: 0.875rem;
@@ -710,6 +722,10 @@
 
 .third-section__img-text__img {
     margin-bottom: 1.5rem;
+}
+
+.third-section__img-text__img-320 {
+    display: none;
 }
 
 .third-section__img-text {
@@ -895,6 +911,10 @@
 .aside__card-care {
     border-radius: 1rem;
     margin-bottom: 2.625rem;
+}
+
+.aside__card-care__img-414 {
+    display: none;
 }
 
 .aside__card-buy {
@@ -1520,6 +1540,87 @@
         margin-bottom: 2rem;
     }
 
+    .breadcrumbs__list {
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 23.375rem;
+        text-overflow: ellipsis;
+    }
+
+    .article-container {
+        min-width: 0;
+        max-width: 23.375rem;
+    }
+
+    .article {
+        max-width: 23.375rem;
+    }
+
+    .article__heading {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .article__main-img {
+        display: none;
+    }
+
+    .article__main-img-414 {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .first-section__qoute {
+        min-width: 23.375rem;
+    }
+
+    .first-section__text {
+        margin-bottom: 1.5rem;
+    }
+
+    .second-section__main-img {
+        display: none;
+    }
+
+    .second-section__main-img-414 {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .second-section__blockqoute-text {
+        min-width: 23.375rem;
+        left: 0;
+    }
+
+    .second-section__text-wrapper-img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .second-section__text-wrapper {
+        margin-bottom: 0;
+    }
+
+    .third-section__img-text-wrapper {
+        margin-bottom: 0;
+    }
+
+    .third-section__img-text__img {
+        min-width: 23.375rem;
+    }
+
+    .third-section__img-text__text {
+        min-width: 23.375rem;
+    }
+
+    .third-section__flash-img {
+        margin-bottom: 1.5rem;
+    }
+
+    .third-section__quote_last {
+        margin-bottom: 3.5rem;
+    }
+
     .main-title {
         margin-bottom: 1.5rem;
     }
@@ -1569,6 +1670,63 @@
         min-width: 23.375rem;
     }
 
+    .second-section__text-wrapper {
+        flex-direction: column;
+    }
+
+    .third-section__img-text-wrapper {
+        flex-direction: column;
+    }
+
+    .aside__cards {
+        flex-direction: column;
+        max-width: 23.375rem;
+    }
+
+    .aside {
+        min-height: 110rem;
+    }
+
+    .aside__card-appointment {
+        margin-right: 0;
+        max-width: 23.375rem;
+    }
+
+    .aside__card-psychologist {
+        display: flex;
+        max-width: 23.375rem;
+    }
+
+    .aside__card-psychologist__list-item:last-child {
+        display: block;
+    }
+
+    .aside__card-psychologist__text {
+        max-width: 15.625rem;
+    }
+
+    .aside__card-care {
+        display: block;
+        max-width: 23.375rem;
+    }
+
+    .aside__card-care__img {
+        display: none;
+    }
+
+    .aside__card-care__img-414 {
+        display: block;
+        max-width: 23.375rem;
+    }
+
+    .aside__card-buy {
+        max-width: 23.375rem;
+    }
+
+    .aside__card-buy__btn {
+        min-width: 6.75rem;
+    }
+
     .footer {
         display: none;
     }
@@ -1598,6 +1756,51 @@
 
     .breadcrumbs {
         margin-bottom: 2rem;
+    }
+
+    .article {
+        max-width: 18rem;
+    }
+
+    .article__main-img-414 {
+        display: block;
+        max-width: 18rem;
+    }
+
+    .first-section__qoute {
+        min-width: 18rem;
+    }
+
+    .second-section__main-img-414 {
+        display: block;
+        max-width: 18rem;
+    }
+
+    .second-section__blockqoute-text {
+        min-width: 18rem;
+        left: 0;
+        top: 0;
+    }
+
+    .third-section__img-text {
+        min-width: 18rem;
+    }
+
+    .third-section__img-text__img {
+        display: none;
+    }
+
+    .third-section__img-text__img-320 {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .third-section__img-text__text {
+        min-width: 18rem;
+    }
+
+    .third-section__quote_last {
+        margin-bottom: 1rem;
     }
 
     .main-title {
@@ -1641,6 +1844,29 @@
 
     .other-cards__img {
         min-width: 18rem;
+    }
+
+    .aside__cards {
+        max-width: 18rem;
+    }
+
+    .aside__card-appointment {
+        min-width: 0;
+        max-width: 18rem;
+    }
+
+    .aside__card__btn {
+        min-width: 15rem;
+    }
+
+    .aside__card-care__img-414 {
+        display: block;
+        max-width: 18rem;
+    }
+
+    .aside__card-buy {
+        min-width: 0;
+        max-width: 18rem;
     }
 
     .footer {
